@@ -1,10 +1,15 @@
 const items = [
-  "Instagram",
-  "Applied Intuition",
-  "BCG Digital Ventures",
   "Greenlite AI",
   "MEXT",
   "500 Startups",
+  "Meta",
+  "Instagram",
+  "Applied Intuition",
+  "BCG Digital Ventures",
+  "Fulcrum AI",
+  "Startupbootcamp",
+  "Plug And Play",
+  "Vali Health",
 ];
 
 export function MarqueeBand() {

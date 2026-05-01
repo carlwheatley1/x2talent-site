@@ -442,11 +442,11 @@ nav {
 .marquee {
     display: flex;
     white-space: nowrap;
-    gap: 4rem;
+    gap: 2.5rem;
 }
 .marquee-item {
     font-family: var(--font-display);
-    font-size: 3rem;
+    font-size: 1.75rem;
     font-weight: 500;
     color: transparent;
     -webkit-text-stroke: 1px var(--text-muted);
