@@ -1,7 +1,7 @@
 import { StarMotif } from "@/components/star-motif";
 import { XParticleCloud } from "@/components/x-particle-cloud";
 
-const BOOK_URL = "https://cal.com/carlwheatley/book-a-hiring-chat";
+const BOOK_URL = "https://tally.so/r/eqQgEQ";
 
 export function HeroSection() {
   return (

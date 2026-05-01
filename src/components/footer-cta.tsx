@@ -1,6 +1,6 @@
 import { StarMotif } from "@/components/star-motif";
 
-const BOOK_URL = "https://cal.com/carlwheatley/book-a-hiring-chat";
+const BOOK_URL = "https://tally.so/r/eqQgEQ";
 
 export function FooterCta() {
   return (
