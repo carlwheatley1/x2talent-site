@@ -41,7 +41,7 @@ export default function ForCandidates() {
                 marginBottom: "1.5rem",
               }}
             >
-              Design Support That<br />Actually Works
+              What&rsquo;s it been like?<br />Let&rsquo;s partner together to find your next design role.
             </h1>
             <p
               className="panel-desc"
