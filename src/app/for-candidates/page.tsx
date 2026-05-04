@@ -13,13 +13,13 @@ export default function ForCandidates() {
       <SystemGrid />
 
       {/* Nav */}
-      <nav>
-        <Link href="/" className="logo" style={{ textDecoration: "none" }}>
+      <nav style={{ background: "transparent", backdropFilter: "none", WebkitBackdropFilter: "none", borderBottom: "none" }}>
+        <Link href="/" className="logo" style={{ textDecoration: "none", color: "#fff" }}>
           X2TALENT
         </Link>
         <div className="nav-status">
           <div className="status-dot" />
-          <span className="meta-label">FOR CANDIDATES</span>
+          <span className="meta-label" style={{ color: "#fff" }}>FOR CANDIDATES</span>
         </div>
       </nav>
 
