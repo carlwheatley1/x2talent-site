@@ -54,65 +54,71 @@ export default function ForCandidates() {
           </div>
         </section>
 
-        {/* ── Services ─────────────────────────────────── */}
+        {/* ── Why Work With Us ─────────────────────────── */}
         <section style={{ padding: "6rem var(--container-padding)" }}>
           <div style={{ display: "flex", alignItems: "center", gap: "1rem", marginBottom: "4rem" }}>
             <StarMotif className="text-clay" />
-            <span className="meta-label">Our Services</span>
+            <span className="meta-label">Why Work With Us?</span>
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "2rem" }}>
 
-            {/* Service 1: Portfolio Review */}
+            {/* 1: Curated Opportunities */}
             <div className="panel" style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
               <div style={{ display: "flex", justifyContent: "space-between" }}>
-                <span className="meta-label">Service .01</span>
+                <span className="meta-label">01</span>
                 <StarMotif />
               </div>
-              <h3 className="panel-title" style={{ fontSize: "clamp(1.4rem, 2.5vw, 1.75rem)" }}>
-                Get Honest Feedback on Your Work
+              <h3 className="panel-title" style={{ fontSize: "clamp(1.2rem, 2vw, 1.5rem)" }}>
+                Curated Opportunities
               </h3>
               <p className="panel-desc">
-                Your portfolio is your voice. We&rsquo;ll review it the way hiring managers will—looking for clarity, process thinking, and the design decisions that set you apart. We don&rsquo;t just say &ldquo;looks good.&rdquo; We&rsquo;ll tell you what works, what doesn&rsquo;t, and why it matters.
-              </p>
-              <p className="panel-desc">
-                Whether you&rsquo;re building a portfolio from scratch or refining an existing one, we&rsquo;ll help you tell your story in a way that opens doors.
+                We&rsquo;re selective about which roles we work with. That means you only see positions we believe are genuinely open, well-funded, and worth your time.
               </p>
             </div>
 
-            {/* Service 2: Interview Prep */}
+            {/* 2: Design Career Coaching */}
             <div className="panel" style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
               <div style={{ display: "flex", justifyContent: "space-between" }}>
-                <span className="meta-label">Service .02</span>
+                <span className="meta-label">02</span>
                 <StarMotif className="text-clay" />
               </div>
-              <h3 className="panel-title" style={{ fontSize: "clamp(1.4rem, 2.5vw, 1.75rem)" }}>
-                Interview Confidence, Without the Stress
+              <h3 className="panel-title" style={{ fontSize: "clamp(1.2rem, 2vw, 1.5rem)" }}>
+                Design Career Coaching
               </h3>
               <p className="panel-desc">
-                Interviews are uncomfortable. We get it. That&rsquo;s why we coach you through the actual questions you&rsquo;ll face—design process deep-dives, cross-functional collaboration scenarios, pressure testing under real constraints.
-              </p>
-              <p className="panel-desc">
-                You&rsquo;ll know what to expect. You&rsquo;ll know what interviewers are actually looking for. You&rsquo;ll walk in confident.
+                We&rsquo;ve been a designer and a design recruiter—at Meta and in fast-growing startups. We know what actually matters in your next move. We&rsquo;ll help you navigate with clarity, coach you through interviews, and guide your job search.
               </p>
             </div>
 
-            {/* Service 3: Job Search Strategy */}
+            {/* 3: Portfolio & Interview Prep */}
             <div className="panel" style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
               <div style={{ display: "flex", justifyContent: "space-between" }}>
-                <span className="meta-label">Service .03</span>
+                <span className="meta-label">03</span>
                 <StarMotif />
               </div>
-              <h3 className="panel-title text-acid" style={{ fontSize: "clamp(1.4rem, 2.5vw, 1.75rem)" }}>
-                A Real Plan for Finding the Right Role
+              <h3 className="panel-title" style={{ fontSize: "clamp(1.2rem, 2vw, 1.5rem)" }}>
+                Portfolio &amp; Interview Prep
               </h3>
               <p className="panel-desc">
-                Job searching as a designer can feel like noise—endless listings, unclear role expectations, vague team dynamics. We help you cut through it.
-              </p>
-              <p className="panel-desc">
-                Together, we&rsquo;ll clarify what you actually want in a role, where those opportunities exist, and how to position yourself for the ones that matter. No spray-and-pray. Just strategy.
+                We&rsquo;ll review your work the way hiring managers do. We&rsquo;ll coach you through interviews so you walk in prepared, not stressed.
               </p>
             </div>
+
+            {/* 4: Part of Something Real */}
+            <div className="panel" style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
+              <div style={{ display: "flex", justifyContent: "space-between" }}>
+                <span className="meta-label">04</span>
+                <StarMotif className="text-clay" />
+              </div>
+              <h3 className="panel-title" style={{ fontSize: "clamp(1.2rem, 2vw, 1.5rem)" }}>
+                Part of Something Real
+              </h3>
+              <p className="panel-desc">
+                We&rsquo;re building a network of thoughtful designers who care about their careers. Stay connected, get feedback, and grow alongside other designers we work with.
+              </p>
+            </div>
+
           </div>
         </section>
 
