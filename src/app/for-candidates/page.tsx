@@ -76,15 +76,6 @@ export default function ForCandidates() {
               <p className="panel-desc">
                 Whether you&rsquo;re building a portfolio from scratch or refining an existing one, we&rsquo;ll help you tell your story in a way that opens doors.
               </p>
-              <a
-                href={TALLY_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-primary"
-                style={{ marginTop: "auto" }}
-              >
-                Schedule a Portfolio Review
-              </a>
             </div>
 
             {/* Service 2: Interview Prep */}
@@ -102,15 +93,6 @@ export default function ForCandidates() {
               <p className="panel-desc">
                 You&rsquo;ll know what to expect. You&rsquo;ll know what interviewers are actually looking for. You&rsquo;ll walk in confident.
               </p>
-              <a
-                href={TALLY_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-primary"
-                style={{ marginTop: "auto" }}
-              >
-                Get Interview Prep
-              </a>
             </div>
 
             {/* Service 3: Job Search Strategy */}
@@ -128,15 +110,6 @@ export default function ForCandidates() {
               <p className="panel-desc">
                 Together, we&rsquo;ll clarify what you actually want in a role, where those opportunities exist, and how to position yourself for the ones that matter. No spray-and-pray. Just strategy.
               </p>
-              <a
-                href={TALLY_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-primary"
-                style={{ marginTop: "auto" }}
-              >
-                Get Job Search Advice
-              </a>
             </div>
           </div>
         </section>
