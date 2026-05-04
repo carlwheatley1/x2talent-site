@@ -6,6 +6,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { SystemGrid } from "@/components/system-grid";
 
 const TALLY_URL = "https://tally.so/r/eqQgEQ";
+const GET_STARTED_URL = "https://tally.so/r/68xBLe";
 
 export default function ForCandidates() {
   return (
@@ -168,7 +169,7 @@ export default function ForCandidates() {
                 What matters to us is that you&rsquo;re moving forward—either with us or toward something better for your career.
               </p>
               <a
-                href={TALLY_URL}
+                href={GET_STARTED_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-primary"
