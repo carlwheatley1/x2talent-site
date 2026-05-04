@@ -14,6 +14,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { TeamSection } from "@/components/team-section";
 import { SystemGrid } from "@/components/system-grid";
 import { TelemetrySection } from "@/components/telemetry-section";
+import { TalentTypes } from "@/components/talent-types";
 import { useGsapInteractions } from "@/hooks/use-gsap-interactions";
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
       <main>
         <HeroSection />
         <MarqueeBand />
+        <TalentTypes />
         <ProblemSection />
         <MethodologySection />
         <TelemetrySection />

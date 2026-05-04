@@ -4,6 +4,7 @@ import Link from "next/link";
 import { StarMotif } from "@/components/star-motif";
 import { SiteFooter } from "@/components/site-footer";
 import { SystemGrid } from "@/components/system-grid";
+import { TalentTypes } from "@/components/talent-types";
 
 const TALLY_URL = "https://tally.so/r/eqQgEQ";
 const GET_STARTED_URL = "https://tally.so/r/68xBLe";
@@ -114,6 +115,8 @@ export default function ForCandidates() {
             </div>
           </div>
         </section>
+
+        <TalentTypes />
 
         {/* ── How It Works ─────────────────────────────── */}
         <section className="section-inverted" style={{ padding: "6rem var(--container-padding)" }}>
