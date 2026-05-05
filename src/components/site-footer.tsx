@@ -38,7 +38,7 @@ export function SiteFooter() {
           >
             Specialized design recruiting for
             <br />
-            the SF Bay Area startup ecosystem.
+            startups and fast growing companies.
           </p>
         </div>
 
