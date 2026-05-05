@@ -102,7 +102,7 @@ export function SiteFooter() {
 
       {/* Bottom row */}
       <div className="footer-bottom-row">
-        <span className="meta-label">© 2024 X2Talent. All rights reserved.</span>
+        <span className="meta-label">© 2026 X2Talent. All rights reserved.</span>
         <span className="meta-label">Built for the top 1%.</span>
       </div>
     </footer>
