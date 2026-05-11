@@ -33,7 +33,7 @@ export function HeroSection() {
           <a href={BOOK_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
             Find Talent
           </a>
-          <a href="/find-role" className="btn btn-secondary">
+          <a href="https://tally.so/r/68xBLe" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
             Find Role
           </a>
         </div>
