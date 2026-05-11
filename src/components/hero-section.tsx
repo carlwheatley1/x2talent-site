@@ -33,8 +33,8 @@ export function HeroSection() {
           <a href={BOOK_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
             Find Talent
           </a>
-          <a href="#methodology" className="btn btn-secondary">
-            See How We Work
+          <a href="/find-role" className="btn btn-secondary">
+            Find Role
           </a>
         </div>
       </div>
