@@ -212,7 +212,7 @@ export default function ForCandidates() {
                 className="btn btn-primary"
                 style={{ alignSelf: "flex-start", marginTop: "0.5rem" }}
               >
-                Get Started
+                Find Role
               </a>
             </div>
           </div>
