@@ -260,7 +260,7 @@ export default function ForCandidates() {
               >
                 EMAIL US
               </a>
-              <span style={{ fontSize: "0.85rem", color: "var(--text-main)", fontFamily: "var(--font-display)", marginTop: "0.5rem" }}>
+              <span style={{ fontSize: "clamp(1.1rem, 2vw, 1.5rem)", color: "var(--text-main)", fontFamily: "var(--font-display)", marginTop: "0.5rem", fontWeight: 600 }}>
                 carl@x2talent.com
               </span>
               <p style={{ fontSize: "0.75rem", color: "var(--text-muted)", marginTop: "0.5rem" }}>
