@@ -22,7 +22,7 @@ export default function FindRole() {
     resume: null,
     portfolio: "",
     portfolioPassword: "",
-    lookingFor: [],
+    lookingFor: [] as string[],
     currentTitle: "",
     currentCompany: "",
     experience: "",
