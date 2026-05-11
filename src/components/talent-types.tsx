@@ -9,6 +9,9 @@ const roles = [
   "Conversation Designer",
   "Brand Designer",
   "Voice AI Designer",
+  "Product Engineer",
+  "Front-End Engineer",
+  "Full-Stack Engineer",
 ];
 
 export function TalentTypes() {
