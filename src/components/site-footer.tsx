@@ -42,51 +42,67 @@ export function SiteFooter() {
           </p>
         </div>
 
-        <div style={{ display: "flex", gap: "0.75rem" }}>
-          <a
-            href={LINKEDIN_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="LinkedIn"
-            className="footer-icon"
-            style={{
-              width: 48,
-              height: 48,
-              border: "1px solid var(--grid-line-strong)",
-              borderRadius: "50%",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              color: "var(--text-main)",
-              textDecoration: "none",
-              transition: "all 0.3s ease",
-            }}
-          >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.63-1.85 3.36-1.85 3.59 0 4.26 2.36 4.26 5.43v6.31zM5.34 7.44a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.22.79 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z" />
-            </svg>
-          </a>
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-end", gap: "1rem" }}>
+          <div style={{ display: "flex", gap: "0.75rem" }}>
+            <a
+              href={LINKEDIN_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              className="footer-icon"
+              style={{
+                width: 48,
+                height: 48,
+                border: "1px solid var(--grid-line-strong)",
+                borderRadius: "50%",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                color: "var(--text-main)",
+                textDecoration: "none",
+                transition: "all 0.3s ease",
+              }}
+            >
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.63-1.85 3.36-1.85 3.59 0 4.26 2.36 4.26 5.43v6.31zM5.34 7.44a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.22.79 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z" />
+              </svg>
+            </a>
+            <a
+              href={`mailto:${EMAIL}`}
+              aria-label="Email"
+              className="footer-icon"
+              style={{
+                width: 48,
+                height: 48,
+                border: "1px solid var(--grid-line-strong)",
+                borderRadius: "50%",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                color: "var(--text-main)",
+                textDecoration: "none",
+                transition: "all 0.3s ease",
+              }}
+            >
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+                <rect x="3" y="5" width="18" height="14" rx="2" />
+                <path d="m3 7 9 6 9-6" />
+              </svg>
+            </a>
+          </div>
           <a
             href={`mailto:${EMAIL}`}
-            aria-label="Email"
-            className="footer-icon"
             style={{
-              width: 48,
-              height: 48,
-              border: "1px solid var(--grid-line-strong)",
-              borderRadius: "50%",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
+              fontSize: "0.85rem",
               color: "var(--text-main)",
               textDecoration: "none",
-              transition: "all 0.3s ease",
+              fontFamily: "var(--font-display)",
+              transition: "color 0.3s ease",
             }}
+            onMouseEnter={(e) => (e.currentTarget.style.color = "var(--clay)")}
+            onMouseLeave={(e) => (e.currentTarget.style.color = "var(--text-main)")}
           >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
-              <rect x="3" y="5" width="18" height="14" rx="2" />
-              <path d="m3 7 9 6 9-6" />
-            </svg>
+            {EMAIL}
           </a>
         </div>
       </div>
