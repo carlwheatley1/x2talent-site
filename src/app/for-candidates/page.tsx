@@ -218,6 +218,60 @@ export default function ForCandidates() {
           </div>
         </section>
 
+        {/* ── Hiring Contact CTA ───────────────────────── */}
+        <section style={{ padding: "8rem var(--container-padding)", backgroundColor: "var(--bg-secondary, var(--bg))", borderTop: "1px solid var(--grid-line-strong)" }}>
+          <div style={{ maxWidth: 700, margin: "0 auto", textAlign: "center" }}>
+            <h2
+              style={{
+                fontFamily: "var(--font-display)",
+                fontSize: "clamp(1.75rem, 4vw, 3rem)",
+                fontWeight: 700,
+                lineHeight: 1.2,
+                letterSpacing: "-0.03em",
+                marginBottom: "1.5rem",
+              }}
+            >
+              If you're looking to
+              <br />
+              <span style={{ color: "var(--clay)" }}>hire design talent</span>
+              <br />
+              we'd love to hear from you.
+            </h2>
+            <p className="panel-desc" style={{ fontSize: "clamp(0.95rem, 1.75vw, 1.1rem)", opacity: 0.75, marginBottom: "2.5rem", lineHeight: 1.8 }}>
+              Drop us a message and we'll get back to you soon, usually faster than you might expect.
+            </p>
+            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1rem" }}>
+              <a
+                href={`mailto:${GET_STARTED_URL.includes("://") ? "carl@x2talent.com" : GET_STARTED_URL}`}
+                style={{
+                  display: "inline-block",
+                  padding: "1rem 2rem",
+                  backgroundColor: "var(--clay)",
+                  color: "#fff",
+                  textDecoration: "none",
+                  borderRadius: "8px",
+                  fontFamily: "var(--font-display)",
+                  fontWeight: 600,
+                  fontSize: "0.95rem",
+                  transition: "all 0.3s ease",
+                }}
+                onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.9")}
+                onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
+              >
+                EMAIL US
+              </a>
+              <span style={{ fontSize: "0.85rem", color: "var(--text-main)", fontFamily: "var(--font-display)", marginTop: "0.5rem" }}>
+                carl@x2talent.com
+              </span>
+              <p style={{ fontSize: "0.75rem", color: "var(--text-muted)", marginTop: "0.5rem" }}>
+                Yes, we read every email.
+                <br />
+                No bots involved.
+              </p>
+            </div>
+          </div>
+        </section>
+
         <SiteFooter />
       </main>
     </>
