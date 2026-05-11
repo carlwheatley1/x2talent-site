@@ -31,7 +31,7 @@ export function HeroSection() {
 
         <div className="btn-group">
           <a href={BOOK_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
-            Book a Hiring Chat
+            Find Talent
           </a>
           <a href="#methodology" className="btn btn-secondary">
             See How We Work

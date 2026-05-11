@@ -35,7 +35,7 @@ export function FooterCta() {
           className="btn btn-primary"
           style={{ marginTop: "1rem" }}
         >
-          Book a Hiring Chat
+          Find Talent
         </a>
       </div>
     </section>
