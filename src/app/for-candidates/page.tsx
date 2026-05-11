@@ -47,10 +47,18 @@ export default function ForCandidates() {
             </h1>
             <p
               className="panel-desc"
-              style={{ fontSize: "clamp(1rem, 2vw, 1.25rem)", maxWidth: 560, opacity: 0.75 }}
+              style={{ fontSize: "clamp(1rem, 2vw, 1.25rem)", maxWidth: 560, opacity: 0.75, marginBottom: "2rem" }}
             >
               We do more than place you. We help you win.
             </p>
+            <a
+              href={GET_STARTED_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary"
+            >
+              Find Role
+            </a>
           </div>
         </section>
 
@@ -120,6 +128,17 @@ export default function ForCandidates() {
             </div>
 
           </div>
+
+          <div style={{ display: "flex", justifyContent: "center", marginTop: "4rem" }}>
+            <a
+              href={GET_STARTED_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary"
+            >
+              Find Role
+            </a>
+          </div>
         </section>
 
         <TalentTypes />
@@ -145,6 +164,15 @@ export default function ForCandidates() {
             <p className="panel-desc" style={{ fontSize: "clamp(1rem, 1.75vw, 1.15rem)", opacity: 0.8, lineHeight: 1.8 }}>
               If you need advice for your job search, interview prep, or portfolio review, we are here to help you. These services are available as part of your partnership with X2Talent. Whether you&rsquo;re preparing for interviews while we source opportunities, or you&rsquo;re refining your approach between searches, we&rsquo;ll be there.
             </p>
+            <a
+              href={GET_STARTED_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary"
+              style={{ marginTop: "2rem" }}
+            >
+              Find Role
+            </a>
           </div>
         </section>
 
