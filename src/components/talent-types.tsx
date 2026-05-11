@@ -4,6 +4,7 @@ const roles = [
   "Product (UI/UX) Designer",
   "UI / Visual Designer",
   "UX / User Experience Designer",
+  "Interaction Designer",
   "Founding Designer",
   "Design Engineer",
   "Conversation Designer",
