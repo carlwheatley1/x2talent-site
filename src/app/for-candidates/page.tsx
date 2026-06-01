@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect } from "react";
 import { StarMotif } from "@/components/star-motif";
 import { SiteFooter } from "@/components/site-footer";
 import { SystemGrid } from "@/components/system-grid";
@@ -10,6 +11,22 @@ const TALLY_URL = "https://tally.so/r/eqQgEQ";
 const GET_STARTED_URL = "https://tally.so/r/68xBLe";
 
 export default function ForCandidates() {
+  useEffect(() => {
+    // Load ElevenLabs ConvAI widget script
+    const script = document.createElement("script");
+    script.src = "https://unpkg.com/@elevenlabs/convai-widget-embed";
+    script.async = true;
+    script.type = "text/javascript";
+    document.body.appendChild(script);
+
+    return () => {
+      // Cleanup script on unmount
+      if (script.parentNode) {
+        script.parentNode.removeChild(script);
+      }
+    };
+  }, []);
+
   return (
     <>
       <SystemGrid />
@@ -217,6 +234,9 @@ export default function ForCandidates() {
             </div>
           </div>
         </section>
+
+        {/* ElevenLabs ConvAI Widget */}
+        <elevenlabs-convai agent-id="agent_0101kt2q3hf9fgrtb64ymz8t6d6y"></elevenlabs-convai>
 
         <SiteFooter />
       </main>
