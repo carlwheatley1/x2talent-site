@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { StarMotif } from "@/components/star-motif";
 import { SiteFooter } from "@/components/site-footer";
 import { SystemGrid } from "@/components/system-grid";
@@ -11,6 +11,8 @@ const TALLY_URL = "https://tally.so/r/eqQgEQ";
 const GET_STARTED_URL = "https://tally.so/r/68xBLe";
 
 export default function ForCandidates() {
+  const widgetContainerRef = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
     // Load ElevenLabs ConvAI widget script
     const script = document.createElement("script");
@@ -18,6 +20,13 @@ export default function ForCandidates() {
     script.async = true;
     script.type = "text/javascript";
     document.body.appendChild(script);
+
+    // Create and append the custom element
+    if (widgetContainerRef.current) {
+      const widget = document.createElement("elevenlabs-convai");
+      widget.setAttribute("agent-id", "agent_0101kt2q3hf9fgrtb64ymz8t6d6y");
+      widgetContainerRef.current.appendChild(widget);
+    }
 
     return () => {
       // Cleanup script on unmount
@@ -236,7 +245,7 @@ export default function ForCandidates() {
         </section>
 
         {/* ElevenLabs ConvAI Widget */}
-        <elevenlabs-convai agent-id="agent_0101kt2q3hf9fgrtb64ymz8t6d6y"></elevenlabs-convai>
+        <div ref={widgetContainerRef} style={{ width: "100%" }} />
 
         <SiteFooter />
       </main>
