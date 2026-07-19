@@ -510,7 +510,7 @@ nav {
 }
 .team-card-photo {
     width: 100%;
-    aspect-ratio: 3/4;
+    aspect-ratio: 2/3;
     overflow: hidden;
     background: var(--clay);
 }
