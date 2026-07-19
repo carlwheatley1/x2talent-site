@@ -496,8 +496,7 @@ nav {
 @media (min-width: 768px) {
     .team-grid {
         grid-template-columns: 1fr 1fr;
-        max-width: 1000px;
-        margin: 0 auto;
+        max-width: 100%;
     }
 }
 .team-card {
@@ -510,7 +509,7 @@ nav {
 }
 .team-card-photo {
     width: 100%;
-    aspect-ratio: 2/3;
+    aspect-ratio: 1/1.5;
     overflow: hidden;
     background: var(--clay);
 }
